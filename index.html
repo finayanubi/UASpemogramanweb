@@ -1,11 +1,258 @@
 <!DOCTYPE html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=biodata.html" />
-    <title>Redirecting...</title>
-  </head>
-  <body>
-    <p>Mengalihkan ke halaman utama...</p>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Biodata</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background-color: #000;
+      color: #f0f0f0;
+    }
+
+    header {
+      background-color: #000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+    }
+
+    nav li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: blue;
+    }
+
+    .container {
+      display: flex;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+
+    .main {
+      flex: 3;
+      padding-right: 20px;
+    }
+
+    aside {
+      flex: 1;
+      background-color: #111010;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: 10px;
+    }
+
+    aside h3 {
+      margin-top: 0;
+    }
+
+    aside ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    table {
+      width: 100%;
+      margin-bottom: 20px;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #999;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th[colspan] {
+      background-color: #192753;
+      color: #f0f0f0;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 10px auto;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0, 0.5);
+    }
+
+.footer {
+  clear: both;
+  width: 100%;
+  text-align: center;
+  background-color: #111010;
+  padding: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+
+
+    .cv-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px 0;
+}
+
+.cv-box {
+  flex: 1 1 300px;
+  background-color: #111010;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(255,255,255,0.08);
+}
+
+.cv-box h2 {
+  color: #f0f0f0;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.cv-box ul {
+  padding-left: 20px;
+}
+
+.cv-box li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  color: #f0f0f0;
+}
+
+.cv-box strong {
+  color: #fff;
+}
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Halaman Biodata</h1>
+  </header>
+
+<nav style="background-color: #111010; padding: 10px;">
+  <ul style="list-style-type: none; margin: 0; padding: 0;">
+    <li style="display: inline; margin-right: 10px;">
+      <a href="login.php" style="color: white; text-decoration: none;">Login</a>
+    </li>
+  </ul>
+</nav>
+
+
+  <img src="img/odysseyhdpart2.png" alt="Header Image" width="1336" height="500">
+
+ <div class="container">
+  <div class="main">
+      <table>
+        <thead>
+          <tr><th colspan="3">Biodata</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="6"><img src="img/mukalu.jpg" width="200" alt="Foto Profil" /></td>
+            <td>Nama</td>
+            <td>Junita Rufina Yanubi</td>
+          </tr>
+          <tr><td>Tempat Tanggal Lahir</td><td>Tembagapura 9 Juni 2004</td></tr>
+          <tr><td>Alamat</td><td>Hative Kecil</td></tr>
+          <tr><td>Email</td><td>xxx009@gmail.com</td></tr>
+          <tr><td>Nomor Telepon</td><td>0821xxxxxx39</td></tr>
+        </tbody>
+      </table>
+
+     <div style="display: flex; padding: 20px;">
+        <div style="flex: 3; padding-right: 20px;">
+           <h1>Tentang saya</h1>
+           <p>Nama saya Junita Rufina Yanubi, lulusan SMA Negeri 10 Tanimbar Selatan dan saat ini sedang menempuh pendidikan di Program Studi Ilmu Komputer, Jurusan Matematika, Fakultas Sains dan Teknologi, Universitas Pattimura, dengan masa studi selama 3 tahun. Saya memiliki minat dan keahlian dalam bidang sistem operasi komputer, khususnya Macintosh, serta memiliki pengalaman dalam desain web menggunakan teknologi dasar seperti HTML, CSS, dan JavaScript. Saya terbiasa menggunakan komputer untuk berbagai kebutuhan, termasuk mengoperasikan Microsoft Word dengan baik. Saya juga mampu bekerja secara mandiri maupun dalam tim, serta siap menghadapi tugas dan tekanan kerja dengan profesionalisme tinggi.
+
+<div class="cv-section">
+  <div class="cv-box">
+    <h2><i class="fas fa-user-graduate"></i> Pendidikan</h2>
+    <ul>
+      <li><strong>S1 Ilmu Komputer</strong>, Universitas Pattimura (2022 - Sekarang)</li>
+      <li><strong>SMA Negeri 10 Tanimbar Selatan</strong> (2019 - 2022)</li>
+    </ul>
+  </div>
+
+  <div class="cv-box">
+    <h2><i class="fas fa-cogs"></i> Keahlian</h2>
+    <ul>
+      <li>Desain Web (HTML, CSS, JavaScript)</li>
+      <li>Mengoperasikan Microsoft Word dengan baik</li>
+      <li>Memahami sistem operasi Macintosh</li>
+    </ul>
+  </div>
+
+  <div class="cv-box" style="flex: 1 1 100%;">
+    <h2><i class="fas fa-briefcase"></i> Pengalaman</h2>
+    <ul>
+      <li><strong>Project Tugas Akhir</strong> – Website Portofolio Pribadi dengan HTML, CSS, Bootstrap</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+    <aside>
+      <h3>Alternatif Link</h3>
+      <ul>
+        <li><a href="https://unpatti.ac.id/">Website Universitas</a></li>
+        <li><a href="https://fst.unpatti.ac.id/">Website Fakultas</a></li>
+        <li><a href="https://ilkom.fst.unpatti.ac.id/">Website Prodi</a></li>
+      </ul>
+
+<h3>Sosial Media</h3>
+<p><a href="https://www.instagram.com/_chickenfinger04" target="_blank">
+  <i class="fab fa-instagram"></i> Instagram
+</a></p>
+
+<p><a href="https://www.facebook.com/ynbi.f" target="_blank">
+  <i class="fab fa-facebook"></i> Facebook
+</a></p>
+
+<p><a href="https://github.com/finayanubi" target="_blank">
+  <i class="fab fa-github"></i> GitHub
+</a></p>
+
+<p><a href="https://www.tiktok.com/@jfy2004" target="_blank">
+  <i class="fab fa-tiktok"></i> TikTok
+</a></p>
+
+<p><a href="https://twitter.com/scxah04" target="_blank">
+  <i class="fab fa-twitter"></i> Twitter
+</a></p>
+   </aside>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 JFY. All Rights Reserved.</p>
+  </footer>
+</body>
 </html>
